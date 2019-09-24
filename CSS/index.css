@@ -15026,9 +15026,9 @@ body#tinymce {
     margin-right: -24px;
     margin-left: -24px;
     display: inline-flex;
+	}
 }
-}
-}
+
 
 .wp-block-column {
 	margin-bottom: 0
@@ -15043,7 +15043,7 @@ body#tinymce {
 	.wp-block-column {
 		display: -webkit-box;
 		display: -ms-flexbox;
-		display: flex;
+		display: inline-flex;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
