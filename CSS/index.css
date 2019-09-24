@@ -139,6 +139,9 @@ table {
   font-size: 3.5rem;
   font-family: 'Anton', sans-serif;
 }
+* .logo {
+  font-family: 'Monoton', cursive;
+}
 * p {
   font-size: 2rem;
   font-family: 'Barlow', sans-serif;
@@ -11494,7 +11497,6 @@ img {
 }
 .header {
   position: relative;
-  height: 76px;
   padding: 0 32px;
   background-color: #fff;
   border-bottom: 1px solid #ebebeb;
@@ -11517,7 +11519,7 @@ img {
   float: left;
   margin-top: 21px;
   margin-right: 24px;
-  background-image: url('assets/logo192.png');
+  background-image: url("C:\Users\dalto\Desktop\Lambda_Projects\UI-Marketing-page\Design-files/Rv_logo.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -35905,22 +35907,106 @@ body.search .jetpack-search-form input[name="s"].show-placeholder::placeholder {
   width: 1px;
   word-wrap: normal !important;
 }
+#footer {
+  display: flex;
+  border-top: 1px solid #ebebeb;
+  width: 100%;
+  padding: 20px;
+}
+#footer #left {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+#footer #right {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+#footer #rvLogo {
+  margin: 0 10px;
+}
+#footer a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: 'Barlow', sans-serif;
+}
+#footer h3 {
+  font-size: 3rem;
+}
 .facts {
   margin: 0 auto;
-  max-width: 1200px;
-  margin-top: 40px;
-  border-top: 1px solid #566E3D;
-  padding-top: 10px;
-  padding-left: 30px;
-}
-.facts .factscontent {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
+}
+@media (min-width: 600px) {
+  .facts {
+    flex-direction: row;
+  }
 }
 .facts h3 {
   margin-bottom: 20px;
 }
 .facts .factsExtended {
-  margin: 30px 0 30px 0;
+  margin: 30px 30px 30px 30px;
+}
+#ff {
+  margin-top: 60px;
+}
+#splash {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  padding-bottom: 5%;
+}
+#splashContainer {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  #splashContainer {
+    height: 85%;
+  }
+}
+#center {
+  margin: 0 auto;
+  width: 80%;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+@media (min-width: 900px) {
+  #wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 600px) {
+  #wrapper {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+#wrapper .boxes {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 25px;
+  font-family: 'Barlow', sans-serif;
+}
+#wrapper .boxes .title {
+  font-size: 1.4rem;
+}
+@media (min-width: 600px) {
+  #wrapper .boxes {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  #wrapper .boxes {
+    width: 25%;
+  }
 }
