@@ -13071,6 +13071,18 @@ img {
 	background-size: contain
 }
 
+.header__logo-foot {
+    height: 34px;
+    width: 32px;
+    float: left;
+    margin-top: -6px;
+    margin-right: 24px;
+    background-image: url(logo192.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .header__logo span {
 	position: absolute;
 	width: 1px;
